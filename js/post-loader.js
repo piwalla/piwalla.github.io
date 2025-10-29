@@ -169,11 +169,11 @@ class PostLoader {
     script.async = true;
     script.crossOrigin = 'anonymous';
 
-    // Giscus 설정 (실제 값으로 변경 필요)
-    script.setAttribute('data-repo', 'yourusername/yourusername.github.io'); // 실제 저장소로 변경
-    script.setAttribute('data-repo-id', 'YOUR_REPO_ID'); // 실제 repo-id로 변경
+    // Giscus 설정
+    script.setAttribute('data-repo', 'piwalla/piwalla.github.io');
+    script.setAttribute('data-repo-id', 'R_kgDONXXXXX'); // Giscus 설정에서 확인
     script.setAttribute('data-category', 'General');
-    script.setAttribute('data-category-id', 'YOUR_CATEGORY_ID'); // 실제 category-id로 변경
+    script.setAttribute('data-category-id', 'DIC_kwDONXXXXX'); // Giscus 설정에서 확인
     script.setAttribute('data-mapping', 'pathname');
     script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');
