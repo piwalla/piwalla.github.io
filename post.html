@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>게시글</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/prism.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">
+        <a href="index.html" class="site-title-link">나의 블로그</a>
+      </h1>
+      <p class="site-description">개발과 일상 이야기</p>
+      <nav class="site-nav">
+        <button id="theme-toggle" class="theme-toggle" aria-label="테마 토글">
+          🌙
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="container">
+      <!-- 게시글 내용 -->
+      <article class="post-content">
+        <header class="post-header">
+          <h1 id="post-title" class="post-title">로딩 중...</h1>
+          <div class="post-meta">
+            <span id="post-date" class="post-date"></span>
+            <span id="post-tags" class="post-tags"></span>
+          </div>
+        </header>
+
+        <div id="post-body" class="post-body">
+          <!-- 게시글 내용이 여기에 로드됩니다 -->
+        </div>
+
+        <!-- 태그 -->
+        <div id="post-tags-list" class="post-tags-list"></div>
+      </article>
+
+      <!-- 댓글 섹션 -->
+      <div class="comments-section">
+        <h3>댓글</h3>
+        <div id="giscus-container" class="giscus-container"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 나의 블로그. 모든 권리 보유.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/theme.js"></script>
+  <script src="js/post-loader.js"></script>
+</body>
+</html>
