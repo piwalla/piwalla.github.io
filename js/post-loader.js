@@ -171,13 +171,13 @@ class PostLoader {
 
     // Giscus 설정
     script.setAttribute('data-repo', 'piwalla/piwalla.github.io');
-    script.setAttribute('data-repo-id', 'R_kgDONXXXXX'); // Giscus 설정에서 확인
+    script.setAttribute('data-repo-id', 'R_kgDOQLHJng');
     script.setAttribute('data-category', 'General');
-    script.setAttribute('data-category-id', 'DIC_kwDONXXXXX'); // Giscus 설정에서 확인
+    script.setAttribute('data-category-id', 'DIC_kwDOQLHJns4CxMbq');
     script.setAttribute('data-mapping', 'pathname');
     script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');
-    script.setAttribute('data-emit-metadata', '1');
+    script.setAttribute('data-emit-metadata', '0');
     script.setAttribute('data-input-position', 'bottom');
     script.setAttribute('data-theme', 'preferred_color_scheme');
     script.setAttribute('data-lang', 'ko');
